@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o new/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilchandwani/Portfolio-Website.git"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilchandwani/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/nikhilchandwani/Portfolio-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
