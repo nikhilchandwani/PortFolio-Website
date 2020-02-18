@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
+  "homepage":"https://nikhilchandwani.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o new/css/ --recursive"
+    "sass": "node-sass -w scss/ -o new/css/ --recursive",
+    "deploy":"gh-pages -d new"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/nikhilchandwani/Portfolio-Website#readme",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
